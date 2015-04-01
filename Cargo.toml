@@ -1,0 +1,15 @@
+[package]
+
+name = "imageboard"
+version = "0.0.1"
+authors = ["Stacey Ell <stacey.ell@gmail.com>"]
+
+[dependencies]
+time = "0.1"
+rustc-serialize = "0.3.10"
+
+[dependencies.iron]
+git = "https://github.com/iron/iron.git"
+
+[dependencies.mount]
+git = "https://github.com/iron/mount.git"
